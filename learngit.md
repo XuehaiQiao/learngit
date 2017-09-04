@@ -8,11 +8,17 @@ git status
 
 git diff	库和工作目录的区别
 
+git diff --staged	staged 和 HEAD 的区别
+
+
+
 git log	查看历史版本
 
 git log --pretty=oneline 简化查看历史输出
 
 HEAD表示当前版本，HEAD^上个版本, HEAD^^上上个版本......HEAD~100上100个版本
+
+git reset filename			unstage file
 
 git reset --hard HEAD^	退回上一版本
 
